@@ -1,0 +1,155 @@
+body {
+  background-color:#34495e;
+  position: relative;
+  min-height: 100%;
+  min-height: 100vh;
+}
+
+.main {
+  background-color: white;
+  min-height: 100vh;
+  min-width: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bg-offWhite {
+  background-color:#f7f7f7;
+}
+
+@media (max-width: 767px) {
+  .bg-offWhite {
+  background-color:white;
+  }
+}
+
+.accent {
+  color: #e45900;
+}
+
+a, a:link, a:visited {
+  text-decoration: none;
+  color: #212529;
+}
+
+a:hover {
+  color: #e45900;
+}
+
+.font-special {
+  font-family: 'Dosis', sans-serif;
+}
+
+img.mx-auto {
+  display: block;
+}
+
+div.contact{
+  position: relative;
+}
+
+div.contact a{
+    position: relative;
+    padding-right: 10%;
+    left: 16%;  
+}
+
+#name{
+  text-align: center;
+}
+
+footer{
+  font-size: small;
+  background-color: rgb(241, 223, 189);
+  position: absolute;
+  right: 0;
+  bottom:0;
+  left:0;
+  text-align: center;
+}
+
+.details{
+  background-color: grey;
+  width: 100%;
+  text-align: center;
+}
+
+div.details a{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* unvisited link */
+div.details a:link {
+  color: white;
+}
+
+/* visited link */
+div.details a:visited {
+  color: white;
+}
+
+/* mouse over link */
+div.details a:hover {
+  color: orange;
+}
+
+
+.info{
+  min-height: 100vh;
+  background-color: rgb(241, 240, 240);
+  padding: 30px;
+  padding-top: 5%;
+  position: fixed;
+}
+
+.semester{
+  height: 38px;
+  margin-right: 10px;
+}
+
+table{
+  margin-left: -6%
+}
+
+table th{
+  border: 1px solid black;
+  text-align: center;
+}
+
+table tr td{
+  border: 1px solid black;
+  text-align: center;
+}
+
+table td{
+  padding: 5px
+}
+
+.grade{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#no_course_left{
+  border-right: none;
+}
+
+#no_course_middle{
+  border-left: none;
+  border-right: none;
+}
+
+#no_course_right{
+  border-left: none;
+}
+
+.education{
+  padding: 30px;
+  padding-left: 50px
+}

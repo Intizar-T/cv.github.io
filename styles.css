@@ -1,0 +1,87 @@
+body {
+  background-color:#34495e;
+}
+
+.container {
+  background-color: white;
+}
+
+.bg-offWhite {
+  background-color:#f7f7f7;
+}
+
+@media (max-width: 767px) {
+  .bg-offWhite {
+  background-color:white;
+  }
+}
+
+.accent {
+  color: #e45900;
+}
+
+a, a:link, a:visited {
+  text-decoration: none;
+  color: #212529;
+}
+
+a:hover {
+  color: #e45900;
+}
+
+.font-special {
+  font-family: 'Dosis', sans-serif;
+}
+
+img.mx-auto {
+  display: block;
+}
+
+
+
+#name{
+  text-align: center;
+}
+
+footer{
+  font-size: small;
+  background-color: rgb(241, 223, 189);
+}
+
+.details{
+  background-color: grey;
+}
+
+div.details a{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* unvisited link */
+div.details a:link {
+  color: white;
+}
+
+/* visited link */
+div.details a:visited {
+  color: white;
+}
+
+/* mouse over link */
+div.details a:hover {
+  color: orange;
+}
+
+.contact{
+  margin: auto;
+  width: 50%;
+}
+
+.contact a{
+  margin-right: 5px;
+}
