@@ -5,16 +5,10 @@ body {
   min-height: 100vh;
 }
 
-#sl_main {
-  display: flex;
-  /* flex-wrap: wrap; */
-  /* justify-content: ; */
-}
-
-.mainn {
+.main {
   background-color: white;
-  /* min-height: 100vh; */
-  /* min-width: 100vh; */
+  min-height: 100vh;
+  min-width: 100vh;
   display: flex;
   flex-wrap: wrap;
 }
@@ -111,7 +105,7 @@ div.details a:hover {
   background-color: rgb(241, 240, 240);
   padding: 30px;
   padding-top: 5%;
-  /* position: fixed; */
+  position: fixed;
 }
 
 .semester{
@@ -159,9 +153,3 @@ table td{
   padding: 30px;
   padding-left: 50px
 }
-
-/* @media screen (max-width: 100px) {
-  body {
-    display:none;
-  }
-} */
