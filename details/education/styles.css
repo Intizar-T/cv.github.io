@@ -1,6 +1,6 @@
 body {
   background-color:#34495e;
-  position: relative;
+  
   min-height: 100%;
   min-height: 100vh;
 }
@@ -11,16 +11,6 @@ body {
   min-width: 100vh;
   display: flex;
   flex-wrap: wrap;
-}
-
-.bg-offWhite {
-  background-color:#f7f7f7;
-}
-
-@media (max-width: 767px) {
-  .bg-offWhite {
-  background-color:white;
-  }
 }
 
 .accent {
@@ -44,14 +34,10 @@ img.mx-auto {
   display: block;
 }
 
-div.contact{
-  position: relative;
-}
-
-div.contact a{
-    position: relative;
-    padding-right: 10%;
-    left: 16%;  
+.contact{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 #name{
@@ -61,7 +47,7 @@ div.contact a{
 footer{
   font-size: small;
   background-color: rgb(241, 223, 189);
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom:0;
   left:0;
@@ -101,12 +87,15 @@ div.details a:hover {
 
 
 .info{
-  min-height: 100vh;
+  
   background-color: rgb(241, 240, 240);
+  min-height: 100vh;
   padding: 30px;
   padding-top: 5%;
-  position: fixed;
+  position: sticky;
+  top: 0;
 }
+
 
 .semester{
   height: 38px;
@@ -127,15 +116,6 @@ table tr td{
   text-align: center;
 }
 
-table td{
-  padding: 5px
-}
-
-.grade{
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
 #no_course_left{
   border-right: none;
 }
@@ -151,5 +131,26 @@ table td{
 
 .education{
   padding: 30px;
-  padding-left: 50px
+  padding-left: 50px;
+  width: 65%;
 }
+
+
+@media only screen and (max-width: 760px) {
+  .info{
+    width: 100%;
+  }
+  .contact{
+    margin: auto;
+    width: 50%;
+  }
+  .education{
+    width: 100%;
+  }
+  table{
+    margin: auto;
+    width: 100%;
+  }
+}
+
+/* the screen size is 1280px wide */

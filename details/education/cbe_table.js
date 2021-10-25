@@ -1,4 +1,4 @@
-function delete_rows(){
+function delete_rows_cbe(){
     let tbody = document.getElementById('table').children[0]
     let len = tbody.rows.length
     for (let i = 0; i < len-1; i++){
@@ -9,10 +9,11 @@ function delete_rows(){
 function cbe_table(){
     
     let sem = document.getElementById('sem').value
-
+    
     if (sem == 'fall'){
         if (document.getElementById('btnradio1').checked){
-            delete_rows()
+            //alert("2018")
+            delete_rows_cbe()
             let tbody = document.getElementById('table')
 
             var row1 = tbody.insertRow(1)           
@@ -29,7 +30,7 @@ function cbe_table(){
             cell1_3.innerHTML = "show"
         }
         else if (document.getElementById('btnradio2').checked){
-            delete_rows()
+            delete_rows_cbe()
             let tbody = document.getElementById('table')
 
             var row1 = tbody.insertRow(1)
@@ -71,7 +72,7 @@ function cbe_table(){
         }
 
         else if (document.getElementById('btnradio3').checked){
-            delete_rows()
+            delete_rows_cbe()
             let tbody = document.getElementById('table')
             var row1 = tbody.insertRow(1)
 
@@ -84,7 +85,7 @@ function cbe_table(){
             cell1_3.innerHTML = "B0"
         }
         else if (document.getElementById('btnradio4').checked){
-            delete_rows()
+            delete_rows_cbe()
             let tbody = document.getElementById('table')
             
             var row1 = tbody.insertRow(1)
@@ -111,7 +112,7 @@ function cbe_table(){
 
     else{
         if (document.getElementById('btnradio1').checked){
-            delete_rows()
+            delete_rows_cbe()
             let tbody = document.getElementById('table')
 
             var row1 = tbody.insertRow(1)
@@ -135,7 +136,7 @@ function cbe_table(){
             
         }
         else if (document.getElementById('btnradio2').checked){
-            delete_rows()
+            delete_rows_cbe()
             let tbody = document.getElementById('table')
 
             var row1 = tbody.insertRow(1)
@@ -195,7 +196,7 @@ function cbe_table(){
         }
 
         else if (document.getElementById('btnradio3').checked){
-            delete_rows()
+            delete_rows_cbe()
             let tbody = document.getElementById('table')
             var row1 = tbody.insertRow(1)
             var row2 = tbody.insertRow(2)
@@ -217,7 +218,7 @@ function cbe_table(){
             cell2_3.innerHTML = "A-"
         }
         else if (document.getElementById('btnradio4').checked){
-            delete_rows()
+            delete_rows_cbe()
             let tbody = document.getElementById('table')
             
             var row1 = tbody.insertRow(1)           

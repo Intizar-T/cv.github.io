@@ -1,5 +1,5 @@
 function delete_rows(){
-    let tbody = document.getElementById('table_cs').children[0]
+    let tbody = document.getElementById('table_cs')
     let len = tbody.rows.length
     for (let i = 0; i < len-1; i++){
         tbody.deleteRow(1)
@@ -24,7 +24,7 @@ function cs_table(){
             var cell1_3 = row1.insertCell(2)
             cell1_3.id = "no_course_right"    
 
-            cell1_1.innerHTML = "No CBE"
+            cell1_1.innerHTML = "No CS"
             cell1_2.innerHTML = "courses to"
             cell1_3.innerHTML = "show"
         }
