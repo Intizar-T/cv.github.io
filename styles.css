@@ -1,19 +1,8 @@
-body {
-  background-color:#34495e;
-}
-
-.container {
+.main {
   background-color: white;
-}
-
-.bg-offWhite {
-  background-color:#f7f7f7;
-}
-
-@media (max-width: 767px) {
-  .bg-offWhite {
-  background-color:white;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
 }
 
 .accent {
@@ -37,7 +26,15 @@ img.mx-auto {
   display: block;
 }
 
+img{
+  border-radius: 100px;
+}
 
+.contact{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 
 #name{
   text-align: center;
@@ -46,17 +43,25 @@ img.mx-auto {
 footer{
   font-size: small;
   background-color: rgb(241, 223, 189);
+  width: 100%;
+  right: 0;
+  bottom:0;
+  left:0;
+  text-align: center;
 }
 
 .details{
   background-color: grey;
+  width: 100%;
+  text-align: center;
+  height: 60px;
 }
 
 div.details a{
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 15px;
-  padding-bottom: 20px;
+  
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -77,11 +82,47 @@ div.details a:hover {
   color: orange;
 }
 
-.contact{
-  margin: auto;
-  width: 50%;
+
+.info{
+  background-color: rgb(241, 240, 240);
+  min-height: 100vh;
+  height: 100%;
+  padding: 30px;
+  padding-top: 5%;
+  width: 25%;
 }
 
-.contact a{
-  margin-right: 5px;
+.welcome{
+  color: rgb(223, 149, 12);
+  
+  text-align: center;
+  margin-top: 10px;
 }
+
+.news{
+  margin-left: 20px;
+}
+
+.right_side{
+  width: 75%;
+}
+
+@media only screen and (max-width: 760px) {
+  .info{
+    min-height: 50vh;
+    width: 100%;
+    height: 10%;
+  }
+  .contact{
+    margin: auto;
+    width: 50%;
+  }
+  footer{
+    width: 100%;
+  }
+  .right_side{
+    width: 100%;
+  }
+}
+
+/* the screen size is 1280px wide */
