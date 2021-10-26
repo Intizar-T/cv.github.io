@@ -27,6 +27,9 @@ function cs_table(){
             cell1_1.innerHTML = "No CS"
             cell1_2.innerHTML = "courses to"
             cell1_3.innerHTML = "show"
+
+            let gpa = document.getElementById('gpa_cs')
+            gpa.innerHTML = "Overall CS GPA: 2.99 / 4.3"
         }
         else if (document.getElementById('btnradio2_cs').checked){
             delete_rows()
@@ -44,6 +47,9 @@ function cs_table(){
             cell1_1.innerHTML = "No CS"
             cell1_2.innerHTML = "courses to"
             cell1_3.innerHTML = "show"
+
+            let gpa = document.getElementById('gpa_cs')
+            gpa.innerHTML = "GPA: 0.0 / 4.3"
         }
 
         else if (document.getElementById('btnradio3_cs').checked){
@@ -67,6 +73,9 @@ function cs_table(){
             cell2_1.innerHTML = "CS300"
             cell2_2.innerHTML = "Introduction to Algorithms"
             cell2_3.innerHTML = "B0"
+
+            let gpa = document.getElementById('gpa_cs')
+            gpa.innerHTML = "GPA: 2.65 / 4.3"
         }
         else if (document.getElementById('btnradio4_cs').checked){
             delete_rows()
@@ -99,6 +108,9 @@ function cs_table(){
             cell3_1.innerHTML = "CS492"
             cell3_2.innerHTML = "Data Visualization"
             cell3_3.innerHTML = ""
+
+            let gpa = document.getElementById('gpa_cs')
+            gpa.innerHTML = "GPA: 0.0 / 4.3"
         }
         else if (document.getElementById('btnradio5_cs').checked){
             delete_rows()
@@ -117,6 +129,8 @@ function cs_table(){
             cell1_2.innerHTML = "graduated "
             cell1_3.innerHTML = "by that time"
 
+            let gpa = document.getElementById('gpa_cs')
+            gpa.innerHTML = "GPA: 0.0 / 4.3"
         }
     }
 
@@ -137,6 +151,9 @@ function cs_table(){
             cell1_1.innerHTML = "No CS"
             cell1_2.innerHTML = "courses to"
             cell1_3.innerHTML = "show"
+
+            let gpa = document.getElementById('gpa_cs')
+            gpa.innerHTML = "GPA: 0.0 / 4.3"
         }
 
         else if (document.getElementById('btnradio2_cs').checked){
@@ -161,6 +178,9 @@ function cs_table(){
             cell2_1.innerHTML = "CS204"
             cell2_2.innerHTML = "Discrete Mathematics"
             cell2_3.innerHTML = "C+"
+
+            let gpa = document.getElementById('gpa_cs')
+            gpa.innerHTML = "GPA: 2.65 / 4.3"
         }
 
         else if (document.getElementById('btnradio3_cs').checked){
@@ -175,6 +195,9 @@ function cs_table(){
             cell1_1.innerHTML = "CS206"
             cell1_2.innerHTML = "Data Structure"
             cell1_3.innerHTML = "B-"
+
+            let gpa = document.getElementById('gpa_cs')
+            gpa.innerHTML = "GPA: 2.7 / 4.3"
         }
         else if (document.getElementById('btnradio4_cs').checked){
             delete_rows()
@@ -207,6 +230,9 @@ function cs_table(){
             cell3_1.innerHTML = "CS374"
             cell3_2.innerHTML = "Introduction to Human Computer Interaction"
             cell3_3.innerHTML = "A+"
+
+            let gpa = document.getElementById('gpa_cs')
+            gpa.innerHTML = "GPA: 3.8 / 4.3"
         }
         else {
             delete_rows()
@@ -224,6 +250,9 @@ function cs_table(){
             cell1_1.innerHTML = "Who knows"
             cell1_2.innerHTML = "what the future"
             cell1_3.innerHTML = "holds :)"
+
+            let gpa = document.getElementById('gpa_cs')
+            gpa.innerHTML = "GPA: 0.0 / 4.3"
 
         }
     }

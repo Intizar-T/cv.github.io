@@ -28,6 +28,9 @@ function cbe_table(){
             cell1_1.innerHTML = "No CBE"
             cell1_2.innerHTML = "courses to"
             cell1_3.innerHTML = "show"
+
+            let gpa = document.getElementById('gpa_cbe')
+            gpa.innerHTML = "Overall CBE GPA: 3.54 / 4.3"
         }
         else if (document.getElementById('btnradio2').checked){
             delete_rows_cbe()
@@ -69,6 +72,9 @@ function cbe_table(){
             cell4_1.innerHTML = "CBE455"
             cell4_2.innerHTML = "Nanochemical Technology"
             cell4_3.innerHTML = "A-"
+
+            let gpa = document.getElementById('gpa_cbe')
+            gpa.innerHTML = "GPA: 3.52 / 4.3"
         }
 
         else if (document.getElementById('btnradio3').checked){
@@ -83,6 +89,9 @@ function cbe_table(){
             cell1_1.innerHTML = "CBE321"
             cell1_2.innerHTML = "Separation Processes"
             cell1_3.innerHTML = "B0"
+
+            let gpa = document.getElementById('gpa_cbe')
+            gpa.innerHTML = "GPA: 3.0 / 4.3"
         }
         else if (document.getElementById('btnradio4').checked){
             delete_rows_cbe()
@@ -107,6 +116,9 @@ function cbe_table(){
             cell2_2.innerHTML = "Capstone Design Project"
             cell2_3.innerHTML = ""
 
+            let gpa = document.getElementById('gpa_cbe')
+            gpa.innerHTML = "GPA: 0.0 / 4.3"
+
         }
         else if (document.getElementById('btnradio5').checked){
             delete_rows_cbe()
@@ -124,6 +136,9 @@ function cbe_table(){
             cell1_1.innerHTML = "I'll have "
             cell1_2.innerHTML = "graduated "
             cell1_3.innerHTML = "by that time"
+
+            let gpa = document.getElementById('gpa_cbe')
+            gpa.innerHTML = "GPA: 0.0 / 4.3"
 
         }
     }
@@ -151,6 +166,9 @@ function cbe_table(){
             cell2_1.innerHTML = "CBE260"
             cell2_2.innerHTML = "Biomolecular Engineering"
             cell2_3.innerHTML = "A0"
+
+            let gpa = document.getElementById('gpa_cbe')
+            gpa.innerHTML = "GPA: 4.15 / 4.3"
             
         }
         else if (document.getElementById('btnradio3').checked){
@@ -211,6 +229,9 @@ function cbe_table(){
             cell6_1.innerHTML = "CBE495"
             cell6_2.innerHTML = "Individual Study"
             cell6_3.innerHTML = "S"
+
+            let gpa = document.getElementById('gpa_cbe')
+            gpa.innerHTML = "GPA: 3.32 / 4.3"
         }
 
         else if (document.getElementById('btnradio4').checked){
@@ -234,6 +255,9 @@ function cbe_table(){
             cell2_1.innerHTML = "CBE371"
             cell2_2.innerHTML = "Electrochemical Principles"
             cell2_3.innerHTML = "A-"
+
+            let gpa = document.getElementById('gpa_cbe')
+            gpa.innerHTML = "GPA: 3.5 / 4.3"
         }
         else if (document.getElementById('btnradio5').checked){
             delete_rows_cbe()
@@ -251,6 +275,9 @@ function cbe_table(){
             cell1_1.innerHTML = "Who knows"
             cell1_2.innerHTML = "what the future"
             cell1_3.innerHTML = "holds :)"
+
+            let gpa = document.getElementById('gpa_cbe')
+            gpa.innerHTML = "GPA: 0.0 / 4.3"
 
         }
     }
