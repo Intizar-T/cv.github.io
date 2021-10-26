@@ -47,7 +47,7 @@ img.mx-auto {
 footer{
   font-size: small;
   background-color: rgb(241, 223, 189);
-  position: fixed;
+  
   right: 0;
   bottom:0;
   left:0;
@@ -87,13 +87,10 @@ div.details a:hover {
 
 
 .info{
-  
   background-color: rgb(241, 240, 240);
-  min-height: 100vh;
+  
   padding: 30px;
   padding-top: 5%;
-  position: sticky;
-  top: 0;
 }
 
 
@@ -139,6 +136,7 @@ table tr td{
 @media only screen and (max-width: 760px) {
   .info{
     width: 100%;
+    height: 10%;
   }
   .contact{
     margin: auto;
