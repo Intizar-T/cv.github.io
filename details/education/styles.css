@@ -104,10 +104,6 @@ div.details a:hover {
   margin-right: 10px;
 }
 
-table{
-  margin-left: -6%
-}
-
 table th{
   border: 1px solid black;
   text-align: center;
@@ -155,6 +151,9 @@ table tr td{
   }
   table{
     margin: auto;
+    width: 100%;
+  }
+  footer{
     width: 100%;
   }
 }

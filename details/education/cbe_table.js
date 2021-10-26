@@ -108,10 +108,28 @@ function cbe_table(){
             cell2_3.innerHTML = ""
 
         }
+        else if (document.getElementById('btnradio5').checked){
+            delete_rows_cbe()
+            let tbody = document.getElementById('table')
+            
+            var row1 = tbody.insertRow(1)           
+
+            var cell1_1 = row1.insertCell(0)
+            cell1_1.id = "no_course_left"
+            var cell1_2 = row1.insertCell(1)
+            cell1_2.id = "no_course_middle"
+            var cell1_3 = row1.insertCell(2)
+            cell1_3.id = "no_course_right"    
+
+            cell1_1.innerHTML = "I'll have "
+            cell1_2.innerHTML = "graduated "
+            cell1_3.innerHTML = "by that time"
+
+        }
     }
 
     else{
-        if (document.getElementById('btnradio1').checked){
+        if (document.getElementById('btnradio2').checked){
             delete_rows_cbe()
             let tbody = document.getElementById('table')
 
@@ -135,7 +153,7 @@ function cbe_table(){
             cell2_3.innerHTML = "A0"
             
         }
-        else if (document.getElementById('btnradio2').checked){
+        else if (document.getElementById('btnradio3').checked){
             delete_rows_cbe()
             let tbody = document.getElementById('table')
 
@@ -195,7 +213,7 @@ function cbe_table(){
             cell6_3.innerHTML = "S"
         }
 
-        else if (document.getElementById('btnradio3').checked){
+        else if (document.getElementById('btnradio4').checked){
             delete_rows_cbe()
             let tbody = document.getElementById('table')
             var row1 = tbody.insertRow(1)
@@ -217,7 +235,7 @@ function cbe_table(){
             cell2_2.innerHTML = "Electrochemical Principles"
             cell2_3.innerHTML = "A-"
         }
-        else if (document.getElementById('btnradio4').checked){
+        else if (document.getElementById('btnradio5').checked){
             delete_rows_cbe()
             let tbody = document.getElementById('table')
             
