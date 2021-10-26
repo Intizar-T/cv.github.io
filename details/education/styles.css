@@ -11,6 +11,7 @@ body {
   min-width: 100vh;
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .accent {
@@ -34,6 +35,10 @@ img.mx-auto {
   display: block;
 }
 
+img{
+  border-radius: 100px;
+}
+
 .contact{
   width: 100%;
   display: flex;
@@ -47,7 +52,7 @@ img.mx-auto {
 footer{
   font-size: small;
   background-color: rgb(241, 223, 189);
-  
+  width: 100%;
   right: 0;
   bottom:0;
   left:0;
@@ -132,6 +137,9 @@ table tr td{
   width: 65%;
 }
 
+#btnradio1:checked{
+  border-color: orange;
+}
 
 @media only screen and (max-width: 760px) {
   .info{
