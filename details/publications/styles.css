@@ -29,7 +29,9 @@ img.mx-auto {
 
 img.pub1_img{
   width: 300px;
+  height: 160px;
   border-radius: 50px;
+  margin-left: 5px;
 }
 
 .contact{
@@ -89,10 +91,13 @@ div.details a:hover {
   background-color: rgb(241, 240, 240);
   padding: 30px;
   padding-top: 5%;
+  min-height: 100vh;
+  margin-top: -3.9%;
 }
 
 .righ_side{
   width: 100%;
+  
 }
 
 .pub1_des {
@@ -106,7 +111,9 @@ div.details a:hover {
   font-size: small;
   background-color: rgb(204, 204, 252);
   border-radius: 50px;
-  min-height: 400px;
+  min-height: 300px;
+  height: 480px;
+  margin-top: -2%;
 }
 
 .sink-on-hover {
@@ -127,6 +134,8 @@ div.details a:hover {
   transform: translateY(8px);
   background-color: rgb(209, 250, 149);
 }
+
+
 
 @media only screen and (max-width: 760px) {
   .info{
