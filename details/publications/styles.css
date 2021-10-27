@@ -56,6 +56,7 @@ footer{
   background-color: grey;
   width: 100%;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 div.details a{
@@ -88,6 +89,10 @@ div.details a:hover {
   background-color: rgb(241, 240, 240);
   padding: 30px;
   padding-top: 5%;
+}
+
+.righ_side{
+  width: 100%;
 }
 
 .pub1_des {
@@ -135,6 +140,7 @@ div.details a:hover {
   footer{
     width: 100%;
   }
+
 }
 
 /* the screen size is 1280px wide */
