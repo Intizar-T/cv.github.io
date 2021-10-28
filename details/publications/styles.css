@@ -147,7 +147,9 @@ div.details a:hover {
   footer{
     width: 100%;
   }
-
+  .details{
+    padding-bottom: 50px;
+  }
 }
 
 /* the screen size is 1280px wide */
