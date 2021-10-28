@@ -58,6 +58,7 @@ footer{
   background-color: grey;
   width: 100%;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 div.details a{
@@ -90,7 +91,8 @@ div.details a:hover {
   background-color: rgb(241, 240, 240);
   padding: 30px;
   padding-top: 5%;
-  
+  min-height: 100vh;
+  margin-top: -3.9%;
 }
 
 .righ_side{
@@ -111,7 +113,7 @@ div.details a:hover {
   border-radius: 50px;
   min-height: 300px;
   height: 480px;
-  
+  margin-top: -2%;
 }
 
 .sink-on-hover {
@@ -138,7 +140,7 @@ div.details a:hover {
 @media only screen and (max-width: 760px) {
   .info{
     width: 100%;
-    margin-top: -10%;
+    height: 10%;
   }
   .contact{
     margin: auto;
