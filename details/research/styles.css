@@ -58,6 +58,7 @@ footer{
   background-color: grey;
   width: 100%;
   text-align: center;
+  margin-left: 250px;
 }
 
 div.details a{
@@ -85,13 +86,120 @@ div.details a:hover {
   color: orange;
 }
 
+.tmln{
+  margin-left: 275px;
+  margin-top: 10px;
+  width: 50%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Palanquin+Dark:400,600');
+
+* {
+  outline:none;
+ -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+.timeline {
+  width:100%;
+  height: 20px;
+  list-style: none;
+  text-align: justify;
+  margin-left: 70%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+  -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgba(191,128,11,1) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(45%, rgba(255,255,255,0)), color-stop(51%, rgba(191,128,11,1)), color-stop(57%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,0)));
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgba(191,128,11,1) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
+  background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgba(191,128,11,1) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
+  background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgba(191,128,11,1) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgba(191,128,11,1) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
+}
+
+.timeline:after {display: inline-block; content: ""; width: 100%;}
+
+.timeline li {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #F2BB13;
+  text-align: center;
+  line-height: 1.2;
+  position: relative;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  
+}
+
+.timeline li:before {
+  display: inline-block;
+  content: attr(data-year);
+  font-size: 23px;
+  position: absolute;
+  left: 50%;
+  
+  -webkit-transform: translateX(-50%);
+     -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+       -o-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.timeline li:nth-child(odd):before {
+  top: -40px;
+}
+.timeline li:nth-child(even):before {
+  bottom: -40px;
+}
+
+.timeline li:after {
+  display: inline-block;
+  content: attr(data-text);
+  font-size: 16px;
+  position: absolute;
+  left: 50%;
+  width: 100px;
+  -webkit-transform: translateX(-50%);
+     -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+       -o-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.timeline li:nth-child(odd):after {
+  bottom: 0;
+  margin-bottom: -10px;
+  -webkit-transform: translate(-50%, 100%);
+     -moz-transform: translate(-50%, 100%);
+      -ms-transform: translate(-50%, 100%);
+       -o-transform: translate(-50%, 100%);
+          transform: translate(-50%, 100%);
+}
+.timeline li:nth-child(even):after {
+  top: 0;
+  margin-top: -10px;
+  -webkit-transform: translate(-50%, -100%);
+     -moz-transform: translate(-50%, -100%);
+      -ms-transform: translate(-50%, -100%);
+       -o-transform: translate(-50%, -100%);
+          transform: translate(-50%, -100%);
+}
 
 .info{
   background-color: rgb(241, 240, 240);
   padding: 30px;
   padding-top: 5%;
-  
+  position: fixed;
+  min-height: 100vh;
 }
+
 
 .righ_side{
   width: 100%;
@@ -111,7 +219,11 @@ div.details a:hover {
   border-radius: 50px;
   min-height: 300px;
   height: 480px;
-  
+  width: 320px;
+}
+
+.boxes{
+  margin-left: 260px;
 }
 
 .sink-on-hover {
@@ -133,18 +245,12 @@ div.details a:hover {
   background-color: rgb(209, 250, 149);
 }
 
-.uni_n_dept{
-  text-color: orange;
-}
 
-.dept{
-  
-}
-
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 700px) {
   .info{
     width: 100%;
     margin-top: -10%;
+    position: relative;
   }
   .contact{
     margin: auto;
@@ -155,6 +261,17 @@ div.details a:hover {
   }
   .details{
     padding-bottom: 50px;
+    margin-left: 0;
+  }
+  .boxes{
+    margin-left: 20px;
+  }
+  .tmln{
+    margin-left: 20px;
+  }
+  .timeline{
+    width: 400px;
+    margin-left: 80%;
   }
 }
 
