@@ -1,4 +1,9 @@
 
+.cons{
+    margin: auto;
+    width: 50%;
+  }
+
   * {
     box-sizing: border-box;
   }
